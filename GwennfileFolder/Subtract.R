@@ -1,2 +1,2 @@
-subAge = joseAge * juanAge
+subAge = joseAge - juanAge
 subAge
