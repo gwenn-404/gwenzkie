@@ -213,8 +213,8 @@ Answer: I think that for R, everything needs to be specific, it just treats valu
 ```{r}
 #Question #10: Suppose a classmate writes a script that reads a column of “numbers” from a text file. The column looks numeric, but when they try sum() on it, R throws an error. Based on everything in this lab (types, typeof()/class()/mode(), conversion, warnings), write a short paragraph explaining what likely went wrong and the steps you’d take to diagnose and fix it.
 ```
-Answer: Using sum() requires 2 variables inside it in order for it to work. It is most likely showing an error because they weren't able to specify the numbers in the variable or they didn't call the variable in the sum(). They need to specify their numerical values properly in order for the sum() to work.
+Answer: Using sum() requires 2 variables inside it in order for it to work. It is most likely showing an error because they weren't able to specify the numbers in the variable or their "numbers" cannot be recognized as numerical value and is treated as character. They need to specify their numerical values properly in order for the sum() to work.
 
-###Conclusion
+### Conclusion
 R handles things very easily, everything is just how it is, you need to specify what you mean as is. It handles data types by efficiently differentiating their types which can be recognized easily by anyone. Understanding functions like typeof() and class() is really useful as it can be a lot of help when you need to identify a specific value. Doing so can make it easier for arithmetic operations to give accurate results.
 
